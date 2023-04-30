@@ -1,0 +1,10 @@
+Being able to compress well is closely related to intelligence as explained below. While intelligence is a slippery concept, file sizes are hard numbers. Wikipedia is an extensive snapshot of Human Knowledge. If you can compress the first 1GB of Wikipedia better than your predecessors, your (de)compressor likely has to be smart(er). The intention of this prize is to encourage development of intelligent compressors/programs as a path to AGI.
+Interview with Lex Fridman (26.Feb'20) (Video, Audio, Tweet)
+The Task
+Losslessly compress the 1GB file enwik9 to less than 115MB. More precisely:
+Create a Linux or Windows compressor comp.exe of size S1 that compresses enwik9 to archive.exe of size S2 such that S:=S1+S2 < L := 115'352'938 (previous record).
+If run, archive.exe produces (without input from other sources) a 109 byte file that is identical to enwik9.
+If we can verify your claim, you are eligible for a prize of 500'000€×(1-S/L). Minimum claim is 5'000€ (1% improvement).
+Restrictions: Must run in ≲50 hours using a single CPU core and <10GB RAM and <100GB HDD on our test machine.
+Remark: You can download the zipped version enwik9.zip of enwik9 here (≈300MB). Please find more details including constraints and relaxations at http://prize.hutter1.net/hrules.htm.
+Motivation
